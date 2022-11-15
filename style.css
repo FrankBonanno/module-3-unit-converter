@@ -1,50 +1,29 @@
+@import url('reset.css');
 /* FONT - WEIGHTS */
 /* INTER - 400 | 500 | 600 | 800 */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap');
 
 :root {
-    /* Main BG */
-    --background-dark: #1c1c1c;
-    /* Light blue top and small border */
-    --blue-primary: #0284c7;
-    --blue-accent: #7dd3fc;
-    /* Bottom BG & box colors */
-    --dark-primary: #1f2937;
-    --dark-accent: #273549;
-    /* Text colors */
-    --text-blue: #0ea5e9;
-    --text-dark: #3d3d3d;
-    --text-light: #ffffff;
-}
-
-/* RESETS */
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin: 0;
-}
-
-body {
-    margin: 0;
-    background-color: var(--background-dark);
-    font-family: 'Inter', sans-serif;
+	/* Main BG */
+	--background-dark: #1c1c1c;
+	/* Light blue top and small border */
+	--blue-primary: #0284c7;
+	--blue-accent: #7dd3fc;
+	/* Bottom BG & box colors */
+	--dark-primary: #1f2937;
+	--dark-accent: #273549;
+	/* Text colors */
+	--text-blue: #0ea5e9;
+	--text-dark: #3d3d3d;
+	--text-light: #ffffff;
 }
 
 /* STYLES */
 .container {
-    text-align: center;
-    margin-top: 125px;
+	text-align: center;
+	margin-top: 125px;
 }
 
 .top-half {
-    color: var(--text-light);
+	color: var(--text-light);
 }
